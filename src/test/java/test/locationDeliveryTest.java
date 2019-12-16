@@ -9,7 +9,7 @@ public class locationDeliveryTest extends locationDeliveryFeature{
 	@Test (description ="SuccesFull addresh change and set for Delivery product")
 	public void TestDeliveryMapAddress() {
 		GoToDeliveryMap();
-		//add value
+		//add value here to add
 	}
 
 }
