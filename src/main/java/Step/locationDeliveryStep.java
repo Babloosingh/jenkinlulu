@@ -9,6 +9,8 @@ public class locationDeliveryStep extends AndroidSetup{
 	@Step("Click On Home Map Button")
 	public static void ClickOnHomeMapButton() {
 		click("xpath",locationDeliveryPo.DELIVERYMAP_HOMEBUTTON);
+
+		
 	}
 	
 	@Step("Click On Delivery Location")

@@ -6,6 +6,9 @@ public class locationDeliveryPo {
 	}
 	
 	 public static final String DELIVERYMAP_HOMEBUTTON="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.ImageView";
+	 //with login
+	 public static final String WITHLOGINDELIVERY_LOCATION="com.lulu.commerce:id/btnSettings";
+
 	 public static final String DELIVERY_LOCATION="com.lulu.commerce:id/btnDeliveryLocation";
 	 public static final String SELECT_COUNTRY="com.lulu.commerce:id/btnCountryClick";
 	 public static final String SELECTONE_COUNTRY="";

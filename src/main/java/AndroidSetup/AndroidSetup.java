@@ -88,7 +88,7 @@ public class AndroidSetup {
 		
 
 	    //@AfterClass
-		@AfterMethod
+	   @AfterMethod
 		public static void tearDown() {
 			driver.quit();
 		}
