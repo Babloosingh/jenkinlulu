@@ -2,104 +2,104 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Lulu App Automation with appium" duration-ms="272106" started-at="2019-12-17T06:19:10Z" finished-at="2019-12-17T06:23:42Z">
+  <suite name="Lulu App Automation with appium" duration-ms="272085" started-at="2019-12-17T11:44:32Z" finished-at="2019-12-17T11:49:04Z">
     <groups>
     </groups>
-    <test name="suite-test-testng" duration-ms="272106" started-at="2019-12-17T06:19:10Z" finished-at="2019-12-17T06:23:42Z">
+    <test name="suite-test-testng" duration-ms="272085" started-at="2019-12-17T11:44:32Z" finished-at="2019-12-17T11:49:04Z">
       <class name="test.addCartTest">
-        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.addCartTest@74294adb]" name="getdriver" is-config="true" duration-ms="4991" started-at="2019-12-17T11:52:27Z" finished-at="2019-12-17T11:52:32Z">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.addCartTest@74294adb]" name="getdriver" is-config="true" duration-ms="4989" started-at="2019-12-17T17:17:48Z" finished-at="2019-12-17T17:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdriver -->
-        <test-method status="PASS" signature="TestvalideAddCartValue()[pri:0, instance:test.addCartTest@74294adb]" name="TestvalideAddCartValue" duration-ms="21564" started-at="2019-12-17T11:52:32Z" description="Add Cart Item" finished-at="2019-12-17T11:52:53Z">
+        <test-method status="PASS" signature="TestvalideAddCartValue()[pri:0, instance:test.addCartTest@74294adb]" name="TestvalideAddCartValue" duration-ms="21499" started-at="2019-12-17T17:17:53Z" description="Add Cart Item" finished-at="2019-12-17T17:18:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestvalideAddCartValue -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.addCartTest@74294adb]" name="tearDown" is-config="true" duration-ms="963" started-at="2019-12-17T11:52:53Z" finished-at="2019-12-17T11:52:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.addCartTest@74294adb]" name="tearDown" is-config="true" duration-ms="863" started-at="2019-12-17T17:18:15Z" finished-at="2019-12-17T17:18:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.addCartTest -->
       <class name="test.storeLocatoreTest">
-        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.storeLocatoreTest@58a90037]" name="getdriver" is-config="true" duration-ms="5053" started-at="2019-12-17T11:51:52Z" finished-at="2019-12-17T11:51:57Z">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.storeLocatoreTest@58a90037]" name="getdriver" is-config="true" duration-ms="5156" started-at="2019-12-17T17:17:13Z" finished-at="2019-12-17T17:17:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdriver -->
-        <test-method status="PASS" signature="GoToStoreLocatorte()[pri:0, instance:test.storeLocatoreTest@58a90037]" name="GoToStoreLocatorte" duration-ms="28288" started-at="2019-12-17T11:51:57Z" description="Go to Store Locatore" finished-at="2019-12-17T11:52:26Z">
+        <test-method status="PASS" signature="GoToStoreLocatorte()[pri:0, instance:test.storeLocatoreTest@58a90037]" name="GoToStoreLocatorte" duration-ms="28872" started-at="2019-12-17T17:17:18Z" description="Go to Store Locatore" finished-at="2019-12-17T17:17:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GoToStoreLocatorte -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.storeLocatoreTest@58a90037]" name="tearDown" is-config="true" duration-ms="951" started-at="2019-12-17T11:52:26Z" finished-at="2019-12-17T11:52:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.storeLocatoreTest@58a90037]" name="tearDown" is-config="true" duration-ms="941" started-at="2019-12-17T17:17:47Z" finished-at="2019-12-17T17:17:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.storeLocatoreTest -->
-      <class name="test.Logintest">
-        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.Logintest@2a40cd94]" name="getdriver" is-config="true" duration-ms="4962" started-at="2019-12-17T11:49:31Z" finished-at="2019-12-17T11:49:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getdriver -->
-        <test-method status="PASS" signature="TestvalideLogin()[pri:0, instance:test.Logintest@2a40cd94]" name="TestvalideLogin" duration-ms="71955" started-at="2019-12-17T11:49:35Z" description="Valid Login With Email and Password" finished-at="2019-12-17T11:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestvalideLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Logintest@2a40cd94]" name="tearDown" is-config="true" duration-ms="879" started-at="2019-12-17T11:50:47Z" finished-at="2019-12-17T11:50:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- test.Logintest -->
       <class name="test.allCategoryTest">
-        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.allCategoryTest@3bd94634]" name="getdriver" is-config="true" duration-ms="5198" started-at="2019-12-17T11:51:12Z" finished-at="2019-12-17T11:51:17Z">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.allCategoryTest@3bd94634]" name="getdriver" is-config="true" duration-ms="5360" started-at="2019-12-17T17:16:34Z" finished-at="2019-12-17T17:16:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdriver -->
-        <test-method status="PASS" signature="TestvalideLogin()[pri:0, instance:test.allCategoryTest@3bd94634]" name="TestvalideLogin" duration-ms="34280" started-at="2019-12-17T11:51:17Z" description=" Purchase All Catogory to Add Cart " finished-at="2019-12-17T11:51:51Z">
+        <test-method status="PASS" signature="TestvalideLogin()[pri:0, instance:test.allCategoryTest@3bd94634]" name="TestvalideLogin" duration-ms="33300" started-at="2019-12-17T17:16:39Z" description=" Purchase All Catogory to Add Cart " finished-at="2019-12-17T17:17:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestvalideLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.allCategoryTest@3bd94634]" name="tearDown" is-config="true" duration-ms="948" started-at="2019-12-17T11:51:51Z" finished-at="2019-12-17T11:51:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.allCategoryTest@3bd94634]" name="tearDown" is-config="true" duration-ms="924" started-at="2019-12-17T17:17:12Z" finished-at="2019-12-17T17:17:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.allCategoryTest -->
-      <class name="test.logoutTest">
-        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.logoutTest@f4168b8]" name="getdriver" is-config="true" duration-ms="4980" started-at="2019-12-17T11:50:48Z" finished-at="2019-12-17T11:50:53Z">
+      <class name="test.Logintest">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.Logintest@2a40cd94]" name="getdriver" is-config="true" duration-ms="5001" started-at="2019-12-17T17:14:54Z" finished-at="2019-12-17T17:14:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdriver -->
-        <test-method status="PASS" signature="ValideLogout()[pri:0, instance:test.logoutTest@f4168b8]" name="ValideLogout" duration-ms="17716" started-at="2019-12-17T11:50:53Z" description="Logout Succesfully" finished-at="2019-12-17T11:51:11Z">
+        <test-method status="PASS" signature="TestvalideLogin()[pri:0, instance:test.Logintest@2a40cd94]" name="TestvalideLogin" duration-ms="71940" started-at="2019-12-17T17:14:59Z" description="Valid Login With Email and Password" finished-at="2019-12-17T17:16:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValideLogout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.logoutTest@f4168b8]" name="tearDown" is-config="true" duration-ms="958" started-at="2019-12-17T11:51:11Z" finished-at="2019-12-17T11:51:12Z">
+        </test-method> <!-- TestvalideLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Logintest@2a40cd94]" name="tearDown" is-config="true" duration-ms="917" started-at="2019-12-17T17:16:11Z" finished-at="2019-12-17T17:16:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.logoutTest -->
+      </class> <!-- test.Logintest -->
       <class name="test.locationDeliveryTest">
-        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.locationDeliveryTest@70a9f84e]" name="getdriver" is-config="true" duration-ms="5143" started-at="2019-12-17T11:52:54Z" finished-at="2019-12-17T11:52:59Z">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.locationDeliveryTest@70a9f84e]" name="getdriver" is-config="true" duration-ms="4930" started-at="2019-12-17T17:18:16Z" finished-at="2019-12-17T17:18:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdriver -->
-        <test-method status="PASS" signature="TestDeliveryMapAddress()[pri:0, instance:test.locationDeliveryTest@70a9f84e]" name="TestDeliveryMapAddress" duration-ms="41862" started-at="2019-12-17T11:52:59Z" description="SuccesFull addresh change and set for Delivery product" finished-at="2019-12-17T11:53:41Z">
+        <test-method status="PASS" signature="TestDeliveryMapAddress()[pri:0, instance:test.locationDeliveryTest@70a9f84e]" name="TestDeliveryMapAddress" duration-ms="42874" started-at="2019-12-17T17:18:20Z" description="SuccesFull addresh change and set for Delivery product" finished-at="2019-12-17T17:19:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestDeliveryMapAddress -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.locationDeliveryTest@70a9f84e]" name="tearDown" is-config="true" duration-ms="950" started-at="2019-12-17T11:53:41Z" finished-at="2019-12-17T11:53:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.locationDeliveryTest@70a9f84e]" name="tearDown" is-config="true" duration-ms="1016" started-at="2019-12-17T17:19:03Z" finished-at="2019-12-17T17:19:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.locationDeliveryTest -->
-      <class name="test.myOrderTest">
-        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.myOrderTest@530612ba]" name="getdriver" is-config="true" duration-ms="5812" started-at="2019-12-17T11:49:10Z" finished-at="2019-12-17T11:49:16Z">
+      <class name="test.logoutTest">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.logoutTest@f4168b8]" name="getdriver" is-config="true" duration-ms="4970" started-at="2019-12-17T17:16:12Z" finished-at="2019-12-17T17:16:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdriver -->
-        <test-method status="PASS" signature="GoTOCheckMyOrder()[pri:0, instance:test.myOrderTest@530612ba]" name="GoTOCheckMyOrder" duration-ms="13727" started-at="2019-12-17T11:49:16Z" description="Go To My Order check is there or not" finished-at="2019-12-17T11:49:30Z">
+        <test-method status="PASS" signature="ValideLogout()[pri:0, instance:test.logoutTest@f4168b8]" name="ValideLogout" duration-ms="15658" started-at="2019-12-17T17:16:17Z" description="Logout Succesfully" finished-at="2019-12-17T17:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValideLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.logoutTest@f4168b8]" name="tearDown" is-config="true" duration-ms="880" started-at="2019-12-17T17:16:33Z" finished-at="2019-12-17T17:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.logoutTest -->
+      <class name="test.myOrderTest">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.myOrderTest@530612ba]" name="getdriver" is-config="true" duration-ms="5799" started-at="2019-12-17T17:14:32Z" finished-at="2019-12-17T17:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdriver -->
+        <test-method status="PASS" signature="GoTOCheckMyOrder()[pri:0, instance:test.myOrderTest@530612ba]" name="GoTOCheckMyOrder" duration-ms="15204" started-at="2019-12-17T17:14:38Z" description="Go To My Order check is there or not" finished-at="2019-12-17T17:14:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GoTOCheckMyOrder -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.myOrderTest@530612ba]" name="tearDown" is-config="true" duration-ms="870" started-at="2019-12-17T11:49:30Z" finished-at="2019-12-17T11:49:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.myOrderTest@530612ba]" name="tearDown" is-config="true" duration-ms="937" started-at="2019-12-17T17:14:53Z" finished-at="2019-12-17T17:14:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

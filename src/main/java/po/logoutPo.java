@@ -8,6 +8,9 @@ public class logoutPo {
 	public static final String CANCEL_BUTTON="com.lulu.commerce:id/btnBack";
 	public static final String MEANU_BUTTON="//android.widget.ImageButton[@content-desc=\"Navigate up\"]";
     public static final String MY_REGISTER="com.lulu.commerce:id/btnLoginRegister";
+    public static final String MY_PROFILE="com.lulu.commerce:id/btnMyProfile";
+    public static final String VERIFY_TEXT_TITLE="com.lulu.commerce:id/etxtName";
+    public static final String MYBACK_PROFILE="com.lulu.commerce:id/btnBack";
     public static final String LOGOUT_BUTTON="com.lulu.commerce:id/btnLogout";
     
 	

@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Lulu App Automation with appium]">
+  <test name="suite-test-testng(failed)">
     <classes>
+      <class name="test.locationDeliveryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestDeliveryMapAddress"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.locationDeliveryTest -->
       <class name="test.logoutTest">
         <methods>
           <include name="tearDown"/>
@@ -11,5 +18,5 @@
         </methods>
       </class> <!-- test.logoutTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- suite-test-testng(failed) -->
+</suite> <!-- Failed suite [Lulu App Automation with appium] -->

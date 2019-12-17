@@ -10,6 +10,13 @@
           <include name="getdriver"/>
         </methods>
       </class> <!-- test.locationDeliveryTest -->
+      <class name="test.logoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ValideLogout"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.logoutTest -->
     </classes>
   </test> <!-- suite-test-testng(failed) -->
 </suite> <!-- Failed suite [Lulu App Automation with appium] -->

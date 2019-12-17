@@ -31,7 +31,28 @@ public class logoutStep extends AndroidSetup {
 
 	}
 	
+//	@Step(" Click On My Profile")
+//	public static void ClickOnMyProfile() {
+//		click("id",logoutPo.MY_PROFILE);
+//
+//	}
+//	
+//	//
+//	@Step(" VariFy text Title")
+//	public static void VariFytextTitle(String babloo) {
+//		//click("id",logoutPo.VERIFYText_TITLE);
+//		getText("id",logoutPo.VERIFY_TEXT_TITLE);
+//	}
 	
+	
+	
+//	@Step(" Click On Back My Profile")
+//	public static void ClickOnBackMyProfile() {
+//		click("id",logoutPo.MYBACK_PROFILE);
+//
+//	}
+	
+		
 	@Step(" click on LogoutButton")
 	public static void ClickOnLogoutButton() {
 		click("id",logoutPo.LOGOUT_BUTTON);
