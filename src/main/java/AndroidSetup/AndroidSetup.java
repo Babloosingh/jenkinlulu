@@ -20,8 +20,8 @@ import io.qameta.allure.Step;
 public class AndroidSetup {
 	public static AppiumDriver<MobileElement> driver= null;
 	
-	//@BeforeClass
-	@BeforeMethod
+	@BeforeClass
+	//@BeforeMethod
 		public static void getdriver () {
 			
 			DesiredCapabilities caps = new DesiredCapabilities ();
@@ -87,8 +87,8 @@ public class AndroidSetup {
 		}
 		
 
-	    //@AfterClass
-	   @AfterMethod
+	    @AfterClass
+	   //@AfterMethod
 		public static void tearDown() {
 			driver.quit();
 		}

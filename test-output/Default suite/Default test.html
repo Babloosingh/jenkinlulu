@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 26 16:35:32 IST 2019</td>
+<td>Started on:</td><td>Fri Dec 27 15:58:12 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>78 seconds (78512 ms)</td>
+<tr><td>Total time:</td><td>22 seconds (22410 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -83,7 +83,8 @@ Build info: version: &apos;4.0.0-alpha-1&apos;, revision: &apos;d1d3728cae&apos;
 System info: host: &apos;lathabp-ThinkPad-L470-W10DG&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-64-generic&apos;, java.version: &apos;1.8.0_03-Ubuntu&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.lulu.commerce.SplashAct..., appPackage: com.lulu.commerce, databaseEnabled: false, desired: {appActivity: com.lulu.commerce.SplashAct..., appPackage: com.lulu.commerce, deviceName: Pixel 2, fullReset: false, noReset: true, platformName: android, platformVersion: 10}, deviceManufacturer: Google, deviceModel: Pixel 2, deviceName: FA7AC1A07832, deviceScreenSize: 1080x1920, deviceUDID: FA7AC1A07832, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 10, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: fc7e242e-6db7-43d2-839f-636e201f9a6b
+Session ID: b42a2784-ca88-43a2-96e0-3e3eba1c21ae
+*** Element info: {Using=xpath, value=//*[@class=&quot;android.support.v7.app.ActionBar$Tab&quot;][@content-desc=&quot;FRESH FOOD&quot;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -96,11 +97,22 @@ Session ID: fc7e242e-6db7-43d2-839f-636e201f9a6b
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
-	at AndroidSetup.AndroidSetup.enterText(AndroidSetup.java:81)
-	at Step.LoginStep.EnterCuurentPassword(LoginStep.java:60)
-	at feature.Loginfeature.GotoLoginPage(Loginfeature.java:24)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at AndroidSetup.AndroidSetup.click(AndroidSetup.java:70)
+	at Step.LoginStep.ClickOnRegisterButton(LoginStep.java:16)
+	at feature.Loginfeature.GotoLoginPage(Loginfeature.java:10)
 	at test.Logintest.TestvalideLogin(Logintest.java:11)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -127,15 +139,16 @@ Session ID: fc7e242e-6db7-43d2-839f-636e201f9a6b
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1620823990", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1620823990'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2044282225", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2044282225'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;4.0.0-alpha-1&apos;, revision: &apos;d1d3728cae&apos;, time: &apos;2019-04-24T13:42:21&apos;
 System info: host: &apos;lathabp-ThinkPad-L470-W10DG&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-64-generic&apos;, java.version: &apos;1.8.0_03-Ubuntu&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.lulu.commerce.SplashAct..., appPackage: com.lulu.commerce, databaseEnabled: false, desired: {appActivity: com.lulu.commerce.SplashAct..., appPackage: com.lulu.commerce, deviceName: Pixel 2, fullReset: false, noReset: true, platformName: android, platformVersion: 10}, deviceManufacturer: Google, deviceModel: Pixel 2, deviceName: FA7AC1A07832, deviceScreenSize: 1080x1920, deviceUDID: FA7AC1A07832, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 10, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: fc7e242e-6db7-43d2-839f-636e201f9a6b
+Session ID: b42a2784-ca88-43a2-96e0-3e3eba1c21ae
+*** Element info: {Using=xpath, value=//*[@class=&quot;android.support.v7.app.ActionBar$Tab&quot;][@content-desc=&quot;FRESH FOOD&quot;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -148,11 +161,22 @@ Session ID: fc7e242e-6db7-43d2-839f-636e201f9a6b
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
-	at AndroidSetup.AndroidSetup.enterText(AndroidSetup.java:81)
-	at Step.LoginStep.EnterCuurentPassword(LoginStep.java:60)
-	at feature.Loginfeature.GotoLoginPage(Loginfeature.java:24)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at AndroidSetup.AndroidSetup.click(AndroidSetup.java:70)
+	at Step.LoginStep.ClickOnRegisterButton(LoginStep.java:16)
+	at feature.Loginfeature.GotoLoginPage(Loginfeature.java:10)
 	at test.Logintest.TestvalideLogin(Logintest.java:11)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -180,8 +204,8 @@ Session ID: fc7e242e-6db7-43d2-839f-636e201f9a6b
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>71</td>
-<td>test.Logintest@6ddf90b0</td></tr>
+<td>14</td>
+<td>test.Logintest@c267ef4</td></tr>
 </table><p>
 </body>
 </html>

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="78512" started-at="2019-12-26T11:05:32Z" finished-at="2019-12-26T11:06:50Z">
+  <suite name="Default suite" duration-ms="22410" started-at="2019-12-27T10:28:12Z" finished-at="2019-12-27T10:28:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="78512" started-at="2019-12-26T11:05:32Z" finished-at="2019-12-26T11:06:50Z">
+    <test name="Default test" duration-ms="22410" started-at="2019-12-27T10:28:12Z" finished-at="2019-12-27T10:28:35Z">
       <class name="test.Logintest">
-        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.Logintest@6ddf90b0]" name="getdriver" is-config="true" duration-ms="6081" started-at="2019-12-26T16:35:32Z" finished-at="2019-12-26T16:35:38Z">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:test.Logintest@c267ef4]" name="getdriver" is-config="true" duration-ms="6725" started-at="2019-12-27T15:58:12Z" finished-at="2019-12-27T15:58:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdriver -->
-        <test-method status="FAIL" signature="TestvalideLogin()[pri:0, instance:test.Logintest@6ddf90b0]" name="TestvalideLogin" duration-ms="71531" started-at="2019-12-26T16:35:38Z" description="Valid Login With Email and Password" finished-at="2019-12-26T16:36:50Z">
+        <test-method status="FAIL" signature="TestvalideLogin()[pri:0, instance:test.Logintest@c267ef4]" name="TestvalideLogin" duration-ms="14449" started-at="2019-12-27T15:58:19Z" description="Valid Login With Email and Password" finished-at="2019-12-27T15:58:34Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
@@ -21,7 +21,8 @@ Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T
 System info: host: 'lathabp-ThinkPad-L470-W10DG', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-64-generic', java.version: '1.8.0_03-Ubuntu'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.lulu.commerce.SplashAct..., appPackage: com.lulu.commerce, databaseEnabled: false, desired: {appActivity: com.lulu.commerce.SplashAct..., appPackage: com.lulu.commerce, deviceName: Pixel 2, fullReset: false, noReset: true, platformName: android, platformVersion: 10}, deviceManufacturer: Google, deviceModel: Pixel 2, deviceName: FA7AC1A07832, deviceScreenSize: 1080x1920, deviceUDID: FA7AC1A07832, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 10, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: fc7e242e-6db7-43d2-839f-636e201f9a6b]]>
+Session ID: b42a2784-ca88-43a2-96e0-3e3eba1c21ae
+*** Element info: {Using=xpath, value=//*[@class="android.support.v7.app.ActionBar$Tab"][@content-desc="FRESH FOOD"]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
@@ -31,7 +32,8 @@ Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T
 System info: host: 'lathabp-ThinkPad-L470-W10DG', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-64-generic', java.version: '1.8.0_03-Ubuntu'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.lulu.commerce.SplashAct..., appPackage: com.lulu.commerce, databaseEnabled: false, desired: {appActivity: com.lulu.commerce.SplashAct..., appPackage: com.lulu.commerce, deviceName: Pixel 2, fullReset: false, noReset: true, platformName: android, platformVersion: 10}, deviceManufacturer: Google, deviceModel: Pixel 2, deviceName: FA7AC1A07832, deviceScreenSize: 1080x1920, deviceUDID: FA7AC1A07832, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 10, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: fc7e242e-6db7-43d2-839f-636e201f9a6b
+Session ID: b42a2784-ca88-43a2-96e0-3e3eba1c21ae
+*** Element info: {Using=xpath, value=//*[@class="android.support.v7.app.ActionBar$Tab"][@content-desc="FRESH FOOD"]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -44,11 +46,22 @@ Session ID: fc7e242e-6db7-43d2-839f-636e201f9a6b
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
-	at AndroidSetup.AndroidSetup.enterText(AndroidSetup.java:81)
-	at Step.LoginStep.EnterCuurentPassword(LoginStep.java:60)
-	at feature.Loginfeature.GotoLoginPage(Loginfeature.java:24)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at AndroidSetup.AndroidSetup.click(AndroidSetup.java:70)
+	at Step.LoginStep.ClickOnRegisterButton(LoginStep.java:16)
+	at feature.Loginfeature.GotoLoginPage(Loginfeature.java:10)
 	at test.Logintest.TestvalideLogin(Logintest.java:11)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -81,7 +94,7 @@ Session ID: fc7e242e-6db7-43d2-839f-636e201f9a6b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestvalideLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Logintest@6ddf90b0]" name="tearDown" is-config="true" duration-ms="872" started-at="2019-12-26T16:36:50Z" finished-at="2019-12-26T16:36:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Logintest@c267ef4]" name="tearDown" is-config="true" duration-ms="1075" started-at="2019-12-27T15:58:34Z" finished-at="2019-12-27T15:58:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

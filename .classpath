@@ -24,5 +24,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/amz"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/framwork"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/learnjava"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/suItforlearn"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TestforeyeMobileApp"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
