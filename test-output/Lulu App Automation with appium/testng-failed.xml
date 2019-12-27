@@ -3,6 +3,27 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Lulu App Automation with appium]">
   <test name="suite-test-testng(failed)">
     <classes>
+      <class name="test.allCategoryTest">
+        <methods>
+          <include name="TestvalideLogin"/>
+          <include name="tearDown"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.allCategoryTest -->
+      <class name="test.Logintest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestvalideLogin"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.Logintest -->
+      <class name="test.storeLocatoreTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="GoToStoreLocatorte"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.storeLocatoreTest -->
       <class name="test.locationDeliveryTest">
         <methods>
           <include name="tearDown"/>
@@ -10,6 +31,13 @@
           <include name="getdriver"/>
         </methods>
       </class> <!-- test.locationDeliveryTest -->
+      <class name="test.myOrderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="GoTOCheckMyOrder"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.myOrderTest -->
       <class name="test.logoutTest">
         <methods>
           <include name="tearDown"/>
@@ -17,6 +45,13 @@
           <include name="getdriver"/>
         </methods>
       </class> <!-- test.logoutTest -->
+      <class name="test.addCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestvalideAddCartValue"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- test.addCartTest -->
     </classes>
   </test> <!-- suite-test-testng(failed) -->
 </suite> <!-- Failed suite [Lulu App Automation with appium] -->

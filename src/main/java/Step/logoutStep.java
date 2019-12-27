@@ -1,5 +1,5 @@
 package Step;
-
+import org.openqa.selenium.By;
 import AndroidSetup.AndroidSetup;
 import io.qameta.allure.Step;
 import po.logoutPo;
@@ -28,29 +28,69 @@ public class logoutStep extends AndroidSetup {
 	@Step(" click on Registred")
 	public static void ClickOnMyRegterd() {
 		click("id",logoutPo.MY_REGISTER);
+		
 
 	}
 	
-//	@Step(" Click On My Profile")
-//	public static void ClickOnMyProfile() {
-//		click("id",logoutPo.MY_PROFILE);
-//
-//	}
-//	
-//	//
-//	@Step(" VariFy text Title")
-//	public static void VariFytextTitle(String babloo) {
-//		//click("id",logoutPo.VERIFYText_TITLE);
-//		getText("id",logoutPo.VERIFY_TEXT_TITLE);
-//	}
+	
+	@Step(" Click On My Profile")
+	public static void ClickOnMyProfile() {
+		click("id",logoutPo.MY_PROFILE);
+	}
+	
+	@Step
+	public static boolean isTextPresent(String textToIdentify) {
+		boolean isPresent = false;
+		try {
+			if (driver.findElement(By.xpath("//*[@text='" + textToIdentify + "']")).isDisplayed())
+				isPresent = true;
+			else if (driver.findElement(
+					By.xpath("//*[translate(@text,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='"
+							+ textToIdentify.toLowerCase() + "']"))
+					.isDisplayed())
+			isPresent = true;
+			System.out.println("Text_is_Present:- " + textToIdentify);
+		} catch (Exception e1) {
+			System.out.println("Text_is_Not_Present:- " + textToIdentify);
+		}
+		return isPresent;
+	}	
 	
 	
 	
-//	@Step(" Click On Back My Profile")
-//	public static void ClickOnBackMyProfile() {
-//		click("id",logoutPo.MYBACK_PROFILE);
-//
-//	}
+	
+	@Step
+	public static boolean isTextPresentlst(String textToIdentify) {
+		boolean isPresent = false;
+		try {
+			if (driver.findElement(By.xpath("//*[@text='" + textToIdentify + "']")).isDisplayed())
+				isPresent = true;
+			else if (driver.findElement(
+					By.xpath("//*[translate(@text,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='"
+							+ textToIdentify.toLowerCase() + "']"))
+					.isDisplayed())
+			isPresent = true;
+			System.out.println("Text_is_Present:- " + textToIdentify);
+		} catch (Exception e1) {
+			System.out.println("Text_is_Not_Present:- " + textToIdentify);
+		}
+		return isPresent;
+	}	
+	
+	
+	
+	// @ End for verify the Name of Users
+	
+	@Step(" Click On Back My Profile")
+	public static void ClickOnBackMyProfile() {
+		click("id",logoutPo.MYBACK_PROFILE);
+
+	}
+	
+	
+
+
+	
 	
 		
 	@Step(" click on LogoutButton")

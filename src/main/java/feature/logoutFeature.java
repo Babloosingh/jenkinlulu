@@ -13,11 +13,15 @@ public class logoutFeature extends logoutStep{
 		ClickOnCancelButton();
 		ClickOnMeanuButton();
 		ClickOnMyRegterd();
-		//ClickOnMyProfile();
-		//VariFytextTitle("babloo");	
-		//assertEquals(driver.findElementsById(logoutPo.VERIFY_TEXT_TITLE),"babloo");
-		//ClickOnBackMyProfile();
+		//@ for verify Name below		
+		ClickOnMyProfile();
+		assert logoutStep.isTextPresent("babloosingh");	
+		assert logoutStep.isTextPresentlst("singh");
+		ClickOnBackMyProfile();
 		ClickOnLogoutButton();
+		
+		
+		
 		
 		
 	
